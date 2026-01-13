@@ -1,0 +1,21 @@
+/* index.css or App.css */
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f9fafb; /* Light grey background for the app */
+  color: #333;
+}
+
+#root {
+  width: 100%;
+}

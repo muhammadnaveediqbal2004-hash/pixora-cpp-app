@@ -1,0 +1,74 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Neon Nights",
+      "user": "CyberVibe",
+      "image": "https://picsum.photos/id/10/800/600",
+      "category": "Digital Art"
+    },
+    {
+      "id": "2",
+      "title": "Minimalist Architecture",
+      "user": "DesignFlow",
+      "image": "https://picsum.photos/id/24/800/600",
+      "category": "Photography"
+    },
+    {
+      "id": "3",
+      "title": "Mountain Serenity",
+      "user": "NatureWanderer",
+      "image": "https://picsum.photos/id/29/800/600",
+      "category": "Photography"
+    },
+    {
+      "id": "4",
+      "title": "Abstract Geometry",
+      "user": "ShapeMaster",
+      "image": "https://picsum.photos/id/37/800/600",
+      "category": "Illustration"
+    },
+    {
+      "id": "5",
+      "title": "Golden Hour in Tokyo",
+      "user": "StreetLens",
+      "image": "https://picsum.photos/id/43/800/600",
+      "category": "Photography"
+    },
+    {
+      "id": "6",
+      "title": "Deep Sea Texture",
+      "user": "AquaArtist",
+      "image": "https://picsum.photos/id/48/800/600",
+      "category": "3D Art"
+    },
+    {
+      "id": "7",
+      "title": "Modern Workspace",
+      "user": "TechMinimal",
+      "image": "https://picsum.photos/id/60/800/600",
+      "category": "Interior"
+    },
+    {
+      "id": "8",
+      "title": "Industrial Echoes",
+      "user": "UrbanExplorer",
+      "image": "https://picsum.photos/id/133/800/600",
+      "category": "Photography"
+    },
+    {
+      "id": "9",
+      "title": "Vibrant Flora",
+      "user": "Botanica",
+      "image": "https://picsum.photos/id/152/800/600",
+      "category": "Macro"
+    },
+    {
+      "id": "10",
+      "title": "The Infinite Bridge",
+      "user": "AstroDesign",
+      "image": "https://picsum.photos/id/122/800/600",
+      "category": "Digital Art"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    height: 70px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #eeeeee;
+    position: relative;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-menu-container{
+    position: relative;
+}
+
+.nav-Logo{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #6366f1;
+}
+
+.nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+.hamburger{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.hamburger span{
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    border-radius: 2px;
+}
+
+.dropdown-Menu{
+    position: absolute;
+    right: 0;
+    width: 200px;
+    top:100%;
+    background: white;
+    border: 1px solid #e5e7eb;
+    padding: 8px;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    z-index: 999;
+    gap: 10px;
+}
+
+.logout-btn
+{
+    background: none;
+    border: none;
+    color: red;
+    cursor: pointer;
+    text-align: left;
+    padding: 5px 0;
+}
