@@ -28,7 +28,7 @@ const Navbar = ({cart}) => {
                 <Link to="/profile">Profile</Link>
                 <Link to="/prayer">Prayer Timings</Link>
                 <Link to="/cart" className="cart-icon">
-                        🛒 
+                        Cart
                     <span className="cart-count">
                         {cart.length}
                     </span>

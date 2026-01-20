@@ -1,69 +1,83 @@
-.navbar{
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 0 2rem;
     height: 70px;
-    background-color: #ffffff;
-    border-bottom: 1px solid #eeeeee;
-    position: relative;
+    background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 50%, #9333ea 100%);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+    position: sticky;
     top: 0;
     z-index: 1000;
 }
 
-.nav-menu-container{
-    position: relative;
-}
-
-.nav-Logo{
-    font-weight: bold;
-    font-size: 1.5rem;
-    color: #6366f1;
+.nav-Logo a {
+    font-weight: 800;
+    font-size: 1.8rem;
+    color: #ffffff !important;
+    text-decoration: none;
+    letter-spacing: -1px;
 }
 
 .nav-links a {
     margin: 0 15px;
     text-decoration: none;
-    color: #333;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 500;
+    transition: all 0.3s ease;
 }
 
-.hamburger{
+.nav-links a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.cart-count {
+    background: white;
+    color: #4f46e5;
+    padding: 2px 7px;
+    border-radius: 10px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.dropdown-Menu {
+    position: absolute;
+    right: 0;
+    width: 220px;
+    top: 120%;
+    background: white;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.hamburger {
     display: flex;
     flex-direction: column;
     gap: 5px;
     background: none;
     border: none;
     cursor: pointer;
+    padding: 8px;
+    outline: none;
 }
 
-.hamburger span{
+.hamburger span {
     width: 25px;
     height: 3px;
-    background-color: #333;
+    background-color: white;
     border-radius: 2px;
-}
-
-.dropdown-Menu{
-    position: absolute;
-    right: 0;
-    width: 200px;
-    top:100%;
-    background: white;
-    border: 1px solid #e5e7eb;
-    padding: 8px;
-    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
-    display: flex;
-    flex-direction: column;
-    z-index: 999;
-    gap: 10px;
-}
-
-.logout-btn
-{
-    background: none;
-    border: none;
-    color: red;
-    cursor: pointer;
-    text-align: left;
-    padding: 5px 0;
+    transition: 0.3s;
 }

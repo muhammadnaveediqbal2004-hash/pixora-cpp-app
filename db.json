@@ -69,6 +69,12 @@
       "user": "AstroDesign",
       "image": "https://picsum.photos/id/122/800/600",
       "category": "Digital Art"
+    },
+    {
+      "id": "ac7d",
+      "title": "New Post",
+      "image": "https://picsum.photos/seed/434/800/600",
+      "user": "Me"
     }
   ]
 }

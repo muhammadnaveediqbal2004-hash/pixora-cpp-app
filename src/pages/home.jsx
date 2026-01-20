@@ -32,7 +32,7 @@ function Home({addToCart}){
                             <p>@{post.user}</p>
                         </div>
                         <button className="buy-btn" onClick={() => addToCart(post)}>
-                            Add to Cart 🛒
+                            Add to Cart
                         </button>
                     </div>
                 ))} 
